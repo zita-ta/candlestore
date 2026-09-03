@@ -1,8 +1,4 @@
 <?php
-// ===============================
-// Koneksi Database - Serenity's Glow
-// ===============================
-
 $host     = getenv('MYSQLHOST') ?: 'localhost';
 $dbname   = getenv('MYSQLDATABASE') ?: 'serenitys_glow';
 $username = getenv('MYSQLUSER') ?: 'root';
