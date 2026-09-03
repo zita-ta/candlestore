@@ -54,7 +54,7 @@ require_once '../includes/admin_nav.php';
 ?>
 
     <div class="admin-wrapper">
-        <div class="admin-form-box" style="text-align:center;">
+        <div class="admin-form-box admin-confirm-box">
             <h2 style="color:#c9524a; margin-bottom:16px;">Yakin mau hapus user ini?</h2>
             <p style="margin-bottom:20px; color:#666;">
                 User <strong><?= htmlspecialchars($user['name']) ?></strong> (<?= htmlspecialchars($user['email']) ?>) akan dihapus permanen dan tidak bisa dikembalikan.
